@@ -1,0 +1,97 @@
+*{
+    list-style-type: none;
+    text-align: center;
+}
+
+#object::-webkit-inner-spin-button, .fieldCalculate select{
+    opacity: 1;
+}
+#text{
+    color: green;
+}
+.fieldName{
+    text-align: center;
+}
+.summa{
+    text-align: center;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+.summa input{
+    width: 60px;
+}
+.gsmt{
+    display: inline-block;
+    text-align: left;
+    width: 275px;
+}
+.fieldCalculate{
+    border-top: 1px solid grey;
+    padding-top: 5px;
+    width: 600px;
+    text-align: center;
+    margin: 15px auto;
+}
+.fieldCalculate select{
+    width: 60px;
+    height: 24px !important;
+}
+.fieldCalculate input, .fieldCalculate select, .summa input{
+    border: 1px solid grey;
+    height: 20px;
+    border-radius: 3px;
+}
+.fieldName span{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+.fieldName span:nth-child(1){
+    position: relative;
+    left: -5px;
+}
+.fieldName span:nth-child(2){
+    position: relative;
+    left: 40px;
+}
+.fieldName span:nth-child(3){
+    position: relative;
+    left: 65px;
+}
+.fieldName span:nth-child(4){
+    position: relative;
+    left: 25px;
+}
+.fieldName span:nth-child(5){
+    position: relative;
+}
+.fieldNetto, .fieldTax, .fieldBrutto{
+    max-width: 60px;
+}
+#service{
+    max-width: 150px;
+}
+#object{
+    max-width: 100px;
+}
+#plus{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+}
+button.del{
+    position: relative;
+    top: 3px;
+    left: 15px;
+    width: 18px;
+    height: 18px;
+    background-image: url(img/ico.png);
+    background-size: cover;
+    background-color: transparent;
+    background-position: bottom;
+    border: none;
+}
